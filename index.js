@@ -12,7 +12,8 @@ const app = express();
 dbConnection();
 
 // CORS
-app.use(cors());
+app.use(cors())
+
 
 
 // Directorio publico
