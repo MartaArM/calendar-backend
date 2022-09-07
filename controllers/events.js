@@ -53,7 +53,7 @@ const actualizarEvento = async(req, res) => {
                 )
 
                 return res.status(201).json({
-                    ok: false,
+                    ok: true,
                     evento: nuevoEvento
                 })
             }
